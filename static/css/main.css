@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 35vh; Adjust as needed */
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust as needed */
+    margin: auto; /* Center the table within the parent */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
